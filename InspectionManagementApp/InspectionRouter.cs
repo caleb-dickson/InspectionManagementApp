@@ -85,8 +85,8 @@ namespace InspectionManagementApp
                           <condition value=""0"" operator=""eq"" attribute=""statecode"" />
                           <condition attribute=""contoso_scheduleddate"" operator=""today"" />
                           <condition attribute=""statuscode"" operator=""in"" >
-                          <value>[New Request]</value>
-                          <value>[Pending]</value>
+                          <value>1</value>
+                          <value>330650000</value>
                           </condition>
                           </filter>
                           </entity>
